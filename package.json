@@ -1,0 +1,22 @@
+{
+  "name": "cypressrepo",
+  "version": "1.0.0",
+  "description": "cypress e2e testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudhadmurthy/cypressRepo.git"
+  },
+  "author": "Sudha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudhadmurthy/cypressRepo/issues"
+  },
+  "homepage": "https://github.com/sudhadmurthy/cypressRepo#readme",
+  "devDependencies": {
+    "cypress": "^12.4.0"
+  }
+}
