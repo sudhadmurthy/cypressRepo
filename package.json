@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sudhadmurthy/cypressRepo#readme",
   "devDependencies": {
-    "cypress": "^12.4.0"
+    "cypress": "^12.4.0",
+    "cypress-email-results": "^1.8.0"
   }
 }
