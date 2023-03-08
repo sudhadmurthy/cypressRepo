@@ -47,11 +47,7 @@ jobs:
         # that setups the runner installing the 
         # dependencies using NPM and installing Cypress
         # Execute all tests cases in project.
-<<<<<<< HEAD
-        uses: cypress-io/github-action@v2
-=======
         uses: cypress-io/github-action@v4.1.0
->>>>>>> 5849bd99128a11e58bba234ea940da90dd9c3fbf
         # The action accepts parameters.
         # You should read the documentation before using an action
         # to understand what it does under the hood.
