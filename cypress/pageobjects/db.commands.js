@@ -7,7 +7,7 @@ import dayjs from 'dayjs'
                 throw new Error('Query must be set');
             }
         
-            cy.task('piesdb', {sql: query, piesenv: env }).then(response => {
+            cy.task('db', {sql: query, piesenv: env }).then(response => {
                 let result = [];
         
                 const flatten = r => Array.isArray(r) && r.length === 1 ? flatten(r[0]) : r;

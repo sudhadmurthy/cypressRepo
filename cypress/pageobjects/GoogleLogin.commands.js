@@ -31,7 +31,7 @@ Cypress.Commands.add('loginByGoogleApi', () => {
       }
 
       window.localStorage.setItem('googleCypress', JSON.stringify(userItem))
-      cy.visit('https://piesdev.azurewebsites.net/')
+      cy.visit('')
     })
   })
 })
