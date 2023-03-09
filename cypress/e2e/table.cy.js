@@ -1,4 +1,8 @@
+import table from "../pageobjects/table"
+
+
 describe ('test table values',()=>{
+    let Table = new table();
 
     beforeEach ('Load the table',()=>{
         cy.visit('https://automatenow.io/sandbox-automation-testing-practice-website/tables/')
@@ -49,7 +53,9 @@ describe ('test table values',()=>{
 
     })
 
-    it('To check specific value is present in a row',()=>{
+    it.only('To check specific value is present in a row',()=>{
+
+        Table.getRowValue('United States','331');
 
     })
 })
