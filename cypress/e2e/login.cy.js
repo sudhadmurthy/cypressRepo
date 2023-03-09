@@ -13,6 +13,8 @@ before('run before',()=>
             start= (performance.now())/1000;
             cy.log("start"+start);
         })
+    //visit the url
+
     cy.visit('https://the-internet.herokuapp.com/login').then(()=>{
         cy.log(`page load time: ${((performance.now())/1000) - start} seconds`);       
         const pageloadtime = ((performance.now())/1000) - start
@@ -27,13 +29,9 @@ before('run before',()=>
 )
 
     it('Login test',()=>{
-
-      
-        //visit the url
         LoginPage.getEmail().type(data.userId);
         LoginPage.getPassword().type(data.password);
         LoginPage.Loginbutton().click();
-
         }
     )
 
